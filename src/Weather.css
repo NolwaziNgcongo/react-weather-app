@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/616/original/pexels-photo-531756.jpeg?1720649756");
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/614/original/clouds.jpg?1720649525");
     font-family: "Roboto", sans-serif;
   }
   
@@ -75,4 +75,11 @@ body {
     text-align: center;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
+  }
+
+  @media(max-width:600px) {
+    .Weather .unit{
+      width: 20%;
+
+    }
   }
